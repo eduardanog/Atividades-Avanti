@@ -1,0 +1,27 @@
+1. Explique, com suas palavras, o que é machine learning?
+    Machine learning é um ramo da ciência de dados/inteligência artificial voltado para a criação de algoritmos capazes de aprender a partir de um cojunto de dados 
+fornecido. Essas aplicações analisam grandes volumes de informação para tomar decisões, identificar padrões e gerar insights para a análise, muitas vezes sem 
+intervenção humana direta. Existem diferentes métodos de aprendizado para os algoritmos, como o aprendizado supervisionado, não supervisionado, semi-supervisionado, 
+redes neurais, entre outros, cada um adequado a diferentes tipos de problemas.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
+    Esses conjuntos têm diferentes funcionalidades no processo de treinamento de modelos. O conjunto de treinamento é composto pelos dados utilizados para ensinar 
+o modelo em questão. O conjunto de validação é usado no processo de ajuste do modelo e dos hiperparâmetros. Já o conjunto de teste serve para verificar a performance 
+final do modelo, pois simula valores reais utilizando dados que ainda não foram vistos, validando sua capacidade de generalização.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento.
+    A depender do contexto de aplicação do modelo e da importância das informações ausentes, existem métodos diferentes. Se os dados ausentes não forem relevantes para o 
+desempenho do modelo, uma opção é excluí-los, para evitar que influenciem negativamente os resultados. Porém, quando os dados são importantes, é possível aplicar técnicas 
+de preenchimento desses valores vazios. Ambos os métodos são possíveis utilizando a biblioteca Pandas.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+    A matriz de confusão (ou matriz de erro) é um método de visualização por meio de uma tabela que compara as previsões de um modelo com os valores reais, permitindo 
+avaliar seu desempenho. Ela mostra acertos e erros do modelo em cada classe, ajudando a identificar se ele está classificando corretamente. A partir dessa matriz, 
+é possível calcular uma série de métricas de desempenho do modelo, como precisão e recall, entre outras.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar algoritmos de machine learning?
+    O leque de possibilidades para a aplicação de algoritmos de machine learning cresce continuamente, por conta da evolução tecnológica em diversas áreas. Com base em 
+experiências prévias, considero especialmente relevante a aplicação desses algoritmos no contexto da Indústria 4.0. Essa área vem crescendo de forma exponencial e ainda
+apresenta uma grande carência em aspectos como prevenção de falhas, otimização de recursos, manutenção preditiva e segurança do trabalho. Por isso, a inclusão de tecnologias 
+como o machine learning é cada vez mais necessária para tornar os processos de produção mais eficientes e inteligentes.
+
