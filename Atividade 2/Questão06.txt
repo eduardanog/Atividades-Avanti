@@ -1,0 +1,11 @@
+Como identificar e tratar outliers em uma coluna numérica usando desvio padrão ou quartis? 
+
+    Outliers são valores que ocorrem fora do padrão esperado de um conjunto de dados. Eles podem surgir por conta erros de medição ou por situações extremas. Dependendo 
+do contexto, se forem importantes, podem ser mantidos e investigados, caso contrário, os dados podem ser corrigidos ou removidos, especialmente quando se trata de 
+erros evidentes ou valores que distorcem significativamente os resultados.
+    Esses valores inesperados podem ser identificados utilizando técnicas como desvio padrão ou quartis. No método do desvio padrão, calcula-se a média dos dados
+e, em seguida, o desvio padrão, com o objetivo de medir a variação dos valores em relação à média dos dados. Os valores que estiverem entre a média menos dois desvios 
+padrão e a média mais dois desvios padrão são considerados normais, os que estiverem fora desse intervalo são considerados outliers.
+    Já no cálculo dos quartis, a média não é utilizada, mas sim a distribuição dos dados em quartis. O primeiro quartil (Q1) representa os 25% menores valores,
+e o terceiro quartil (Q3) representa os 75% menores valores. O intervalo interquartil (IQR) é a diferença entre Q3 e Q1. Os valores que estiverem entre 
+Q1 - 1,5 × IQR e Q3 + 1,5 × IQR são considerados normais, os que estiverem fora desse intervalo são classificados como outliers.
